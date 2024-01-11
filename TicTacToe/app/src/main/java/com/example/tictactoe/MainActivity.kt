@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun gameplay(){
         reset()
-        var array = arrayOf("afh","afhs")
+        var array: Array<String>
         playerXTurn = false
         binding.btnPlayer0.setOnClickListener{
             playerXTurn = false
